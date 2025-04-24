@@ -1,33 +1,30 @@
-    ---
-    layout: post                     # Specifies the layout file (_layouts/post.html)
-    title: "My Awesome New Post"     # The title of your post
-    subtitle: "A quick look into something cool" # The subtitle displayed below the title
-    date: 2024-07-26 10:30:00       # The date and time of publication (use YYYY-MM-DD format at minimum)
-    author: "Your Name"              # Your name
-    header-img: "img/post-bg-universe.jpg" # Optional: Path to an image for the header background
-    catalog: true                    # Optional: Set to true to generate a table of contents for the post
-    tags:                            # Optional: Add relevant tags
-      - Tech
-      - Blogging
-      - Example
-    ---
+---
+layout:   post
+title:    "My Awesome New Post"
+subtitle: "A quick look into something cool"
+date:     2024-07-26 10:30:00
+author:   "Your Name"
+header-style: text
+catalog:  true
+tags:
+  - Tech
+  - Blogging
+  - Example
+---
+# Start writing your blog content here in Markdown...
 
-    # Start writing your blog content here in Markdown...
+This is the first paragraph of your post. You can use standard Markdown syntax.
 
-    This is the first paragraph of your post. You can use standard Markdown syntax.
+## Subheadings work too
 
-    ## Subheadings work too
+*   And lists
+*   Are easy
 
-    *   And lists
-    *   Are easy
+You can include code blocks:
 
-    You can include code blocks:
-
-    ```javascript
-    console.log("Hello, Jekyll!");
-    ```
-    ```
-4.  **Write your content** below the second `---` line using Markdown.
+```javascript
+console.log("Hello, Jekyll!");
+```
 
 **After Creating the Post (Either Method):**
 
